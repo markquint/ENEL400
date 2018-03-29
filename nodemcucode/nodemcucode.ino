@@ -4,11 +4,11 @@
 const boolean HOTSPOT = true;
 
 #if HOTSPOT
-  char ssid[] = "chan";            // network SSID (name) 
-  char pass[] = "70zgou4tucg7o";   // network password
+  char ssid[] = "";            // network SSID (name) 
+  char pass[] = "";   // network password
 #else
-  char ssid[] = "TELUS0119";    // network SSID (name) 
-  char pass[] = "h2aznt32rj";   // network password
+  char ssid[] = "";    // network SSID (name) 
+  char pass[] = "";   // network password
 #endif
 
 int status = WL_IDLE_STATUS;
